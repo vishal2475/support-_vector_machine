@@ -9,7 +9,6 @@ data = {
 }
 df = pd.DataFrame(data)
 
-# Step 2: User inputs (use input() instead of Streamlit)
 salary = int(input("Enter your Monthly Salary: "))
 hotel = input("Select a Hotel (Royal Palace, Sunview Resort, Budget Inn, Ocean Pearl, City Lodge): ")
 
